@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Link, Route} from 'react-router-dom';
+import {BrowserRouter, NavLink, Route} from 'react-router-dom';
 import './App.css';
 
 
@@ -28,9 +28,9 @@ class App extends Component {
           <header>
             <nav>
               <ul>
-                <li><Link to ="/">Home</Link></li>
-                <li><Link to ="/about">About</Link></li>
-                <li><Link to ="/contact">Contact</Link></li>
+                <li><NavLink to ="/" exact>Home</NavLink></li>
+                <li><NavLink to ="/about" activeClassName="about_selected">About</NavLink></li>
+                <li><NavLink to ="/contact">Contact</NavLink></li>
               </ul>
             </nav>
           </header>
