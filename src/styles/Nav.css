@@ -1,0 +1,47 @@
+nav.mainNav{
+    padding: 0 30px 30px 0;
+}
+
+ul{
+     list-style-type: none; /* zniknięcie kropek */
+}
+
+nav.mainNav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: .2s;
+}
+
+nav.mainNav a:hover {
+    transform: translateX(15px);
+}
+
+nav.mainNav a.active{
+    color:lightgoldenrodyellow;
+    border-left: 10px gray solid;
+    transform: translateX(0);
+}
+
+nav.mainNav li:nth-child(1) a.active{
+    border-left-color: red;
+    
+}
+
+nav.mainNav li:nth-child(2) a.active{
+    border-left-color: green;
+    
+}
+
+nav.mainNav li:nth-child(3) a.active{
+    border-left-color: blue;
+    
+}
+
+nav.mainNav li:nth-child(4) a.active{
+    border-left-color: yellow;
+    
+}
