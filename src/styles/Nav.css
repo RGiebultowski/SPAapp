@@ -6,6 +6,7 @@ ul{
      list-style-type: none; /* zniknięcie kropek */
 }
 
+
 nav.mainNav a {
     display: block;
     text-decoration: none;

@@ -31,6 +31,7 @@ const Navigation = () => {
     ))
 
     return ( 
+        <>
         <nav className="mainNav">
             <ul>
                 {menu}
@@ -48,6 +49,7 @@ const Navigation = () => {
                 </li> */}
             </ul>
         </nav>
+        </>
     );
 }
  
