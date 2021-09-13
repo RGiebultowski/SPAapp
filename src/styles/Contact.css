@@ -1,0 +1,40 @@
+.message{
+    padding: 10px 20px 0 20px;
+}
+
+.message textarea{
+    font-size: 16px;
+    width: 80%;
+    min-height: 200px;
+    max-width: 40%;
+    margin: 20px 0;
+    padding: 0 12px 0 12px;
+    line-height: 1.2;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.name textarea{
+    font-size: 16px;
+    min-height:30px;
+    max-width: 30%;
+    margin: 10px 0;
+}
+
+.surname textarea{
+    font-size: 16px;
+    min-height:30px;
+    max-width: 30%;
+    margin: 10px 0;
+}
+
+.message button{
+    display: block;
+    border: 2px solid black;
+    margin: 0 34.5% auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color:white;
+    cursor: pointer;
+    font-size: 15px
+}

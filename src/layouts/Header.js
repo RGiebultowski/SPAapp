@@ -27,7 +27,6 @@ class Header extends React.Component {
     }
 
     changeImage(){
-        console.log("jestem tutaj")
         const index = Math.floor(Math.random() * images.length)
 
         this.setState({
@@ -37,7 +36,7 @@ class Header extends React.Component {
 
     render() {
         const { currentImg } = this.state
-        console.log(currentImg)
+        // console.log(currentImg)
         return (
         <>
             <Switch>
